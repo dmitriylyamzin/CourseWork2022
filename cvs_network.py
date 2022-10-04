@@ -90,5 +90,3 @@ for event in longpoll.listen():
                 print (input)
                 print (X_train)
                 send_data(304159800, find_probabilities(model.predict(input)))
-
-int (0,5)
