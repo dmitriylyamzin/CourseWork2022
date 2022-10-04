@@ -29,7 +29,7 @@ print(model.summary())
 model.compile(optimizer='adam',
 loss='mae',
 metrics=['mae'])
-model.fit(X_train, y_train, epochs=100)
+model.fit(X_train, y_train, epochs=1000)
 model.evaluate(X_test, y_test)
 
 !pip install vk_api
